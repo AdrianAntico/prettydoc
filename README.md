@@ -1,4 +1,7 @@
 ## This repo is a direct copy of prettydoc. I added a new theme called remixautoml that can be used if you install this version
+If you would like to add a new theme simply go to the inst/resources/ folder, make a copy of the _.css and _.min.css files, rename them to your theme name, and modify the values inside.
+
+The rest of this README is the original README by the prettydoc folks.
 
 ## Creating Pretty Documents From R Markdown
 
