@@ -1,3 +1,5 @@
+## This repo is a direct copy of prettydoc. I added a new theme called remixautoml that can be used if you install this version
+
 ## Creating Pretty Documents From R Markdown
 
 > Have you ever tried to find a lightweight yet nice theme for the R Markdown
