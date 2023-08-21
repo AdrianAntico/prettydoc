@@ -20,11 +20,12 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71;
+  color: #000000;
+  background-color: #9da9e7;
 }
 
 a {
-  color: #1e6bb8;
+  color: #b1c5d8;
   text-decoration: none;
 }
 a:hover {
@@ -34,8 +35,8 @@ a:hover {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);
+  background-color: #152399;
+  background-image: linear-gradient(120deg,#000121,#152399);
   padding: 1.5rem 2rem;
 }
 .page-header :last-child {
@@ -92,10 +93,12 @@ a:hover {
   padding-bottom: 0;
 }
 .toc .toc-box {
-  padding: 1.5rem;
-  background-color: #f3f6fa;
-  border: solid 1px #dce6f0;
-  border-radius: 0.3rem;
+  padding: 55px;
+  background: linear-gradient(90deg, #00052b, #00198a);
+  border: solid 3px #000000;
+  border-radius: 70px;
+  color: white;
+  box-shadow: 8px 5px 10px 0px #000000;
 }
 .toc .toc-box .toc-title {
   margin: 0 0 0.5rem;
@@ -143,7 +146,7 @@ a:hover {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957;
+  color: #000000;
 }
 .main-content p {
   margin-bottom: 1em;
