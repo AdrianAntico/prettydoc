@@ -21,7 +21,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #000000;
-  background-color: #9da9e7;
+  background: linear-gradient(180deg, #787989, #b7b8cf);
 }
 
 a {
@@ -35,8 +35,8 @@ a:hover {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #152399;
-  background-image: linear-gradient(120deg,#000121,#152399);
+  background-color: #000121;
+  background-image: linear-gradient(120deg,#000121,#696b76);
   padding: 1.5rem 2rem;
 }
 .page-header :last-child {
@@ -94,8 +94,8 @@ a:hover {
 }
 .toc .toc-box {
   padding: 55px;
-  background: linear-gradient(90deg, #00052b, #00198a);
-  border: solid 3px #000000;
+  background: linear-gradient(90deg, #000121, #696b76);
+  border: solid 1px #000000;
   border-radius: 70px;
   color: white;
   box-shadow: 8px 5px 10px 0px #000000;
@@ -137,24 +137,52 @@ a:hover {
 .main-content img {
   max-width: 100%;
 }
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
+
+.main-content h1  {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #070e56;
+}
+
+.main-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #121e94;
+}
+.main-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #3745d1;
+}
+.main-content h4 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #374995;
+}
+.main-content h5 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #000000;
+}
 .main-content h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
   color: #000000;
 }
+
 .main-content p {
   margin-bottom: 1em;
 }
 .main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  color: #567482;
+  color: #2c2c2d;
   background-color: #f3f6fa;
   border-radius: 0.3rem;
 }
@@ -165,8 +193,8 @@ a:hover {
   font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
   color: #2c2c2d;
   word-wrap: normal;
-  background-color: #f3f6fa;
-  border: solid 1px #dce6f0;
+  background-color: #e9edf9c9;
+  border: solid 1px #001a35;
   border-radius: 0.3rem;
   line-height: 1.45;
   overflow: auto;
@@ -214,7 +242,7 @@ a:hover {
 .main-content blockquote {
   padding: 0 1rem;
   margin-left: 0;
-  color: #819198;
+  color: #2c2c2d;
   border-left: 0.3rem solid #dce6f0;
   font-size: 1.2rem;
 }
@@ -273,5 +301,4 @@ a:hover {
   background-color: #eff0f1;
   border: 0;
 }
-
 /*# sourceMappingURL=cayman.css.map */
